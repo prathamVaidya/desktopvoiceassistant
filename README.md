@@ -5,6 +5,7 @@ This is a voice assistant for desktop.
 # Contributors:
 
 + @prathamVaidya
++ @Jitesh-Sri
 
 
 
