@@ -12,4 +12,4 @@ This is a voice assistant for desktop.
 
 
 
-Note: This Contributors secion is only for practising and will be removed after some time. Github shows the contributors list automatically.
+Note: This Contributors section is only for practicing and will be removed after some time. Github shows the contributors list automatically.
