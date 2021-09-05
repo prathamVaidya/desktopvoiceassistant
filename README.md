@@ -1,21 +1,27 @@
-# ProjectDescription:
+# Desktop Voice Assistant
 
-This is a voice assistant for desktop.
-This project will take voice input from the user and perform the determined the operation, and then give a confirmation with voice.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Desktop Voice Assistant is an accessibility tool which allows you to use your operating system hands-free and operate the basic functionalities with your voice. 
+This project will take voice input from the user and perform the voice command, and then give you the confirmation.
+
 Example:
 Voice Input- Jarvis (Any Wake world), Open Chrome   
 Output- Open Chrome Browser + Say "Chrome Browser Opened"
+
+
+Requirements: 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Technologies used: Python
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
-Working: We will be using Modals pre-generated from common voice dataset to develop two modules:  
-Module 01-  
-Speech to Text:  Convert user speech to text  
-Module 02-  
-Text to speech: Will try to use common voice modals to convert text to speech. TTS engines are easily available, but our main aim will be to find or create a better human voice sounding engine.
+
+- Python 3.8
+
+Working: 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  *To be updated soon*
+
+
+Contributors:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Contributors:
+
 
 + @prathamVaidya
 + @daxoron
