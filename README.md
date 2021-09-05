@@ -4,8 +4,10 @@ This is a voice assistant for desktop.
 This project will take voice input from the user and perform the determined the operation, and then give a confirmation with voice.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Example:
+
 Voice Input: Jarvis (Any Wake world), Open Chrome 
-Perform: Open Chrome Browser + Say "Chrome Browser Opened"
+
+Output: Open Chrome Browser + Say "Chrome Browser Opened"
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Technologies used: Python
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
