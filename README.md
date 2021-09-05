@@ -6,7 +6,6 @@ This project will take voice input from the user and perform the determined the 
 Example:
 
 Voice Input: Jarvis (Any Wake world), Open Chrome 
-
 Output: Open Chrome Browser + Say "Chrome Browser Opened"
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Technologies used: Python
