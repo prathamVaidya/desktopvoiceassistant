@@ -8,10 +8,21 @@ Voice Input- Jarvis (Any Wake world), Open Chrome
 Output- Open Chrome Browser + Say "Chrome Browser Opened"
 
 
+Currently it uses gTTS for TTS. Mozilla TTS implementation is still in development.
+
 Requirements: 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- Python 3.8
+Use the requirements.txt to install these.
+
+use 
+   
+    pip install -r requirements.txt
+
+
+- Python 2+
+- gTTS
+- playsound
 
 Working: 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
