@@ -13,14 +13,12 @@ Currently it uses gTTS for TTS. Mozilla TTS implementation is still in developme
 Requirements: 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Use the requirements.txt to install these.
-
-use 
+To install all the requirements use
    
     pip install -r requirements.txt
 
 
-- Python 2+
+- Python 2.x / 3.x
 - gTTS
 - playsound
 
