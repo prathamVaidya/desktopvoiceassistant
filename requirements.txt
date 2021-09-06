@@ -1,0 +1,2 @@
+gTTS
+playsound
