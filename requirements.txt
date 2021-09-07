@@ -1,2 +1,5 @@
 gTTS
 playsound
+SpeechRecognition
+PyAudio
+wikipedia
