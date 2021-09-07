@@ -8,6 +8,7 @@ MOZILLA_TTS = 2
 
 
 def say(text, speed=False, tts_name=GOOGLE_TTS):
+    print(text)
     if tts_name == GOOGLE_TTS:
         # Use gTTS for Text to Speech. Internet Required.
         from gtts import gTTS
