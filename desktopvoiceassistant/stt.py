@@ -2,7 +2,7 @@ import speech_recognition as sr
 
 
 # todo::
-# - use this wake_world variable for wake world.
+# - use this wake_word variable for wake world.
 # you can use hello nova as greeting msg and just return a command "hello" which is handled in commands.py
 
 wake_word = "nova"
@@ -16,7 +16,7 @@ def listen():   # It takes microphone input from the user and returns string out
             voice = listener.listen(source)
             command = listener.recognize_google(voice)  # Using google for voice recognition.
             arr = command.lower().split()
-            if 'nova' == arr[0]:  # The command should start with "Hello Nova"...
+            if arr[0] == wake_word:  # The command should start with "Nova"...
                 arr.pop(0)  # removes first word NOVA
                 print(" ".join(arr))
             elif 'thank you' in command:
@@ -30,6 +30,5 @@ def listen():   # It takes microphone input from the user and returns string out
         print('Please speak again...')  # This will be printed in case of improper voice or some mic issue
         listen()
         pass
-
-
-call()
+    
+   
