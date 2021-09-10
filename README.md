@@ -47,7 +47,7 @@ Contributors:
 
 + @prathamVaidya
 + @daxoron
-+ @Jitesh-Sri
++ @decifur
 + @Kushagra0426
 + @GitanshKumar
 
