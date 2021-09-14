@@ -1,5 +1,4 @@
 gTTS
-playsound
+playsound2
 SpeechRecognition
-PyAudio
 wikipedia
