@@ -33,7 +33,8 @@ To install all the requirements use
 - gTTS
 - playsound
 - SpeechRecognition
-- PyAudio (In linux, do apt-get install portaudio19-dev before installing this module)
+
+- PyAudio - Install it from lib/win folder. (In linux, do apt-get install portaudio19-dev before installing this module)
 
 Working: 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -41,17 +42,3 @@ Working:
   *To be updated soon*
 
 
-Contributors:
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-+ @prathamVaidya
-+ @daxoron
-+ @decifur
-+ @Kushagra0426
-+ @GitanshKumar
-
-
-
-
-Note: This Contributors section is only for practicing and will be removed after some time. Github shows the contributors list automatically.
