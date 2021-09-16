@@ -10,7 +10,7 @@ MOZILLA_TTS = 2
 
 
 def say(text, speed=False, tts_name=GOOGLE_TTS):
-    print(text)
+    print("NOVA: "+text)
 
     if tts_name == GOOGLE_TTS:
         # Use gTTS for Text to Speech. Internet Required.

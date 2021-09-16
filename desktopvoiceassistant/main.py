@@ -1,4 +1,10 @@
+import stt
 import tts
-
-tts.say("Namaste, Kaise hai aap?")
-# tts.say("Hey, I am your Personal Assistant. How can I HELP you?")
+import commands
+while True:
+    print("listening...")
+    text = stt.listen()
+    if isinstance(text, int):
+        tts.say("Error Occurred")
+    else:
+        commands.command(text)
