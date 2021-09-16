@@ -23,7 +23,7 @@ def command(cmd_str):
 
         # try opening the program
         os.system(cmd[1])
-    elif cmd[0] == "say":
+    elif cmd[0] == "speak" or cmd[0] == 'repeat' or cmd[0] == 'say':
         # repeat user statement
         sub_cmd = cmd
         sub_cmd.pop(0)
@@ -70,16 +70,13 @@ def command(cmd_str):
 
     elif cmd[0] == "hello":
         tts.say(greetings_msg)
-
+    elif cmd[0] == "goodbye":
+        tts.say("Good Bye, Have a nice day!")
+        exit()
     else:
         tts.say("I didn't get that")
 
     print("--------------------------------------------------")
 
 
-# demo code -------------------------
-# try to run this file directly using 'python commands.py'
-print("Enter the command in text")
-print(">>")
-command(input())
 
