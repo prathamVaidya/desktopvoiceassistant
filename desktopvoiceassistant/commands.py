@@ -1,6 +1,6 @@
 import os
 import tts
-
+import webbrowser
 
 # Commands
 # open <APP>, open chrome, open notepad
@@ -20,6 +20,7 @@ def command(cmd_str):
     if cmd[0] == "open":
         response = "Opening "+cmd[1]
         tts.say(response)
+        webbrowser.open("https://" + cmd[1] + ".com")
 
         # try opening the program
         os.system(cmd[1])
@@ -37,9 +38,10 @@ def command(cmd_str):
         tts.say("Searching for " + topic+" ...")
 
         import wikipedia
-
+        # import pywhatkit
+        # pywhatkit.search(topic)
         try:
-            response = wikipedia.summary(topic, sentences=3)
+            response = wikipedia.summary(topic, sentences=2)
             tts.say("Here is what I found,")
         except wikipedia.DisambiguationError as error:
             # api bug gives wrong defination try explain bird . Possibly parser issue
@@ -54,19 +56,19 @@ def command(cmd_str):
         import time
         localTime = time.localtime(time.time())
 
-        months = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
-                  'August', 'September', 'October', 'November', 'December']
-
-        date = str(localTime.tm_mday)+ " " + str(months[localTime.tm_mon-1])+ " " + str(localTime.tm_year)
-        tts.say("Today is "+date)
-
         if localTime.tm_hour > 12:
             hour = str(localTime.tm_hour - 12) + 'am'
         else:
             hour = str(localTime.tm_hour) + 'pm'
 
         time = hour + " " + str(localTime.tm_min) + " minutes"
-        tts.say("and time is " + time)
+        tts.say("Time is " + time)
+
+        months = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+                  'August', 'September', 'October', 'November', 'December']
+
+        date = str(localTime.tm_mday)+ " " + str(months[localTime.tm_mon-1])+ " " + str(localTime.tm_year)
+        tts.say("and date is "+date)
 
     elif cmd[0] == "hello":
         tts.say(greetings_msg)

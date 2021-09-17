@@ -2,3 +2,4 @@ gTTS
 playsound2
 SpeechRecognition
 wikipedia
+webbrowser
