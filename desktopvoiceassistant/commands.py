@@ -17,14 +17,14 @@ def command(cmd_str):
     print("--------------------------------------------------")
     cmd = cmd_str.split()
     # handle text command. Arg[]: cmd Array[] of words in commands
-    if cmd.len < 1:
+    if len(cmd) > 0:
         if cmd[0] == "open":
             response = "Opening " + cmd[1]
             tts.say(response)
             webbrowser.open("https://" + cmd[1] + ".com")
 
             # try opening the program
-            os.system(cmd[1])
+            #os.system(cmd[1])
         elif cmd[0] == "speak" or cmd[0] == 'repeat' or cmd[0] == 'say':
             # repeat user statement
             sub_cmd = cmd
